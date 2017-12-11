@@ -121,6 +121,16 @@ function main() {
 		social_tools: false
 	});	
 
+    /*====================================
+    Toggle event
+    ======================================*/
+  $(".nav > li > a").click(function(){
+
+    $('#bs-example-navbar-collapse-1').attr("aria-expanded",false);
+    $("#bs-example-navbar-collapse-1").removeClass("in");
+    
+  });
+
 }());
 
 
