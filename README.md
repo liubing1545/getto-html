@@ -1,2 +1,2 @@
 # getto-html
-getto官网
+web site for response layout.
